@@ -1,0 +1,26 @@
+{
+  "name": "privacylens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Privacy Lens is a web extension designed to provide users with transparent information about the privacy data being collected by websites they visit. The extension will display privacy-related information in an easy-to-understand format, similar to uBlock Origin's interface, helping users make informed decisions about their online privacy.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
+    "svelte": "^5.39.8",
+    "vite": "^6.3.6"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@testing-library/svelte": "^5.2.8",
+    "@vitest/ui": "^3.2.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "vitest": "^3.2.4"
+  }
+}
